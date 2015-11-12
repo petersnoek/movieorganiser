@@ -10,6 +10,8 @@ namespace MovieOrganiser.Model
     {
         public string IMDBMovieId { get; set; }
 
+        public int UserCount { get; set; }
+
         public int Rating { get; set; }
 
         public List<string> Actors { get; set; }
